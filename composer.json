@@ -1,0 +1,14 @@
+{
+    "name": "wearejh/m2-core-bug-configurable-prices",
+    "description": "JH M2 Core Bug Fix - Configurable products min/max negative prices",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Jh\\CoreBugConfigurablePrices\\": ""
+        }
+    }
+}
