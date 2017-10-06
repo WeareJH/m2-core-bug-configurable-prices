@@ -8,7 +8,7 @@ use Magento\ConfigurableProduct\Model\ResourceModel\Product\Indexer\Price\Config
 /**
  * @author Leo Gumbo <leo@wearejh.com>
  */
-class Configurable
+class Configurable extends PriceConfigurable
 {
     /**
      * Calculate minimal and maximal prices for configurable product options
